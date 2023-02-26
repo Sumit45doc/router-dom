@@ -2,6 +2,21 @@
   "name": "router-dom",
   "version": "0.1.0",
   "private": true,
+  "description": "react router dom package tutorial",
+  "author": "Sumit Kumar Sharma",
+  "keywords": [
+    "configuration routes",
+    "Active links",
+    "Navigating on click",
+    "Navigating programmatically",
+    "Dynamic routes",
+    "Nested routes",
+    "Route parameters",
+    "lazy loading",
+    "authenication",
+    "search params",
+    "relative links"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
