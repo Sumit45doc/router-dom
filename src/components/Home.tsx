@@ -4,7 +4,7 @@ function Home() {
     return (
         <>
             <div>Home</div>
-            <Link to={'/place-order'} >Place Order</Link>
+            <Link to={'/place-order'} state={{ price: 1000 }} >Place Order</Link>
         </>
     )
 }
