@@ -22,6 +22,7 @@ function App() {
         <Route path="payment" element={<PaymentOrder />} />
         <Route path="*" element={<NotFound />} />
         <Route path="products" element={<Products />}>
+          <Route index element={<FeaturedProducts />} />
           <Route path="feature" element={<FeaturedProducts />} />
           <Route path="new" element={<NewProducts />} />
         </Route>
