@@ -3,6 +3,7 @@ import About from './components/About';
 import Home from './components/Home';
 import NavActiveLink from './components/NavActiveLink';
 import Navbar from './components/Navbar';
+import NotFound from './components/NotFound';
 import PaymentOrder from './components/PaymentOrder';
 import PlaceOrder from './components/PlaceOrder';
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='/place-order' element={<PlaceOrder />} />
         <Route path="/payment" element={<PaymentOrder />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
