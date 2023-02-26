@@ -17,6 +17,8 @@ function PlaceOrder() {
             <p>Price of order: {state.price} </p>
             <p>Item available: {itemCount ? 'available': 'unavailable'}</p>
             <button onClick={handleOnClick}>Place order programatically</button>
+            {/* use -1 for back and 1 for forward navigation */}
+            <button onClick={() => navigate(-1)} >Go Back</button>
         </>
     )
 }
