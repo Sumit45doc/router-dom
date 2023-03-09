@@ -11,3 +11,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - It is a fully feeatured client and server side routing library for reacts
 - Helps create and navigate between different urls that make up your web application
 - Provide unique urls for different components in the app and makes the ui easily shareable with other users
+
+## To learn, go commit by commit
